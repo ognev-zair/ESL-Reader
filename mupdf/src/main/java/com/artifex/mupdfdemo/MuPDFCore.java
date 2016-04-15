@@ -1,11 +1,10 @@
 package com.artifex.mupdfdemo;
-import java.util.ArrayList;
-
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.Bitmap.Config;
 import android.graphics.PointF;
 import android.graphics.RectF;
+
+import java.util.ArrayList;
 
 public class MuPDFCore
 {

@@ -6,12 +6,7 @@
 
 package com.artifex.mupdfdemo;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 // BEGIN android-note
 // removed link to collections framework docs

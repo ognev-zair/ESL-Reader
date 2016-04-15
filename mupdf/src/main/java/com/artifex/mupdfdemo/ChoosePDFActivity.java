@@ -1,12 +1,5 @@
 package com.artifex.mupdfdemo;
 
-import java.io.File;
-import java.io.FileFilter;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
-
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.DialogInterface;
@@ -20,6 +13,13 @@ import android.os.FileObserver;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ListView;
+
+import java.io.File;
+import java.io.FileFilter;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
 
 enum Purpose {
 	PickPDF,

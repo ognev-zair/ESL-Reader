@@ -1,10 +1,5 @@
 package com.artifex.mupdfdemo;
 
-import java.io.InputStream;
-import java.util.concurrent.Executor;
-
-import com.artifex.mupdfdemo.ReaderView.ViewMapper;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -28,12 +23,11 @@ import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.RelativeLayout;
-import android.widget.SeekBar;
-import android.widget.TextView;
-import android.widget.ViewAnimator;
+import android.widget.*;
+import com.artifex.mupdfdemo.ReaderView.ViewMapper;
+
+import java.io.InputStream;
+import java.util.concurrent.Executor;
 
 class ThreadPerTaskExecutor implements Executor {
     public void execute(Runnable r) {

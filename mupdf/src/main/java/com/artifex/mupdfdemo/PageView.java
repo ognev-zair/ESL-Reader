@@ -1,26 +1,16 @@
 package com.artifex.mupdfdemo;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-
 import android.content.Context;
-import android.graphics.Bitmap;
+import android.graphics.*;
 import android.graphics.Bitmap.Config;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Matrix;
-import android.graphics.Paint;
-import android.graphics.Path;
-import android.graphics.Point;
-import android.graphics.PointF;
-import android.graphics.Rect;
-import android.graphics.RectF;
 import android.os.Handler;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 
 // Make our ImageViews opaque to optimize redraw
 class OpaqueImageView extends ImageView {

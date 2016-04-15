@@ -1,8 +1,5 @@
 package com.artifex.mupdfdemo;
 
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.ContentResolver;
@@ -12,6 +9,9 @@ import android.util.Base64;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
 
 public class PrintDialogActivity extends Activity {
 	private static final String PRINT_DIALOG_URL = "https://www.google.com/cloudprint/dialog.html";

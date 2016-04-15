@@ -15,12 +15,12 @@
  */
 package com.rmtheis.yandtran.translate;
 
-import java.net.URL;
-import java.net.URLEncoder;
-
 import com.rmtheis.yandtran.ApiKeys;
 import com.rmtheis.yandtran.YandexTranslatorAPI;
 import com.rmtheis.yandtran.language.Language;
+
+import java.net.URL;
+import java.net.URLEncoder;
 
 /**
  * Makes calls to the Yandex machine translation web service API
