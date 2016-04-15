@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/translating"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="идет перевод..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/translatedView"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/sourceText"
+            android:layout_margin="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <View
+        android:background="@color/canvas"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/translatedtext"
+            android:layout_margin="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</FrameLayout>
+</ScrollView><!-- From: file:/home/ognev/Projects/ESLReader/mupdf/src/main/res/layout/translate_view.xml -->

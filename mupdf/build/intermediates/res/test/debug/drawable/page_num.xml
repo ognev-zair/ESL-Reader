@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle">
+	<padding android:left="8dp"
+		android:right="8dp"
+		android:top="1dp"
+		android:bottom="2dp" />
+	<solid android:color="@color/page_indicator" />
+</shape>
+<!-- From: file:/home/ognev/Projects/ESLReader/mupdf/src/main/res/drawable/page_num.xml --><!-- From: file:/home/ognev/Projects/ESLReader/mupdf/build/intermediates/bundles/debug/res/drawable/page_num.xml -->

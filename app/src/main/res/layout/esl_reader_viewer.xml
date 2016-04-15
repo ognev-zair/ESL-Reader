@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:background="@drawable/window"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+	<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:elevation="6dp"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			app:popupTheme="@style/AppTheme.PopupOverlay"
+			android:background="@drawable/toolbar"			/>
+
+	<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+	<FrameLayout
+			android:id="@+id/mupdfContainer"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+
+	<RelativeLayout
+			android:id="@+id/lowerButtons"
+			android:layout_gravity="right"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent">
+
+		<SeekBar
+				android:id="@+id/pageSlider"
+				android:layout_alignParentBottom="true"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				/>
+
+		<TextView
+				android:id="@+id/pageNumber"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:visibility="gone"
+				android:layout_toRightOf="@+id/pageSlider"
+				android:text="ssdsd"
+				android:layout_marginBottom="16dp"
+				android:textColor="#000000"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	</RelativeLayout>
+
+	</FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,3 @@
+include ':app', ':mupdf-android-master1', ':sweet_dialog'
+project(':mupdf-android-master1').projectDir = new File('mupdf-android-master')
+project(':sweet_dialog').projectDir = new File('library')

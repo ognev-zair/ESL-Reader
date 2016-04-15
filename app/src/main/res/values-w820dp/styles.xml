@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ReadMeDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+	<!-- Base application theme. -->
+	<!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+		<!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+	<!--</style>-->
+    <!--<style name="Theme.MyTheme" parent="@android:style/Theme.AppCompat.Light">-->
+        <!--&lt;!&ndash; Set AppCompat’s actionBarStyle &ndash;&gt;-->
+        <!--<item name="actionBarStyle">@style/MyActionBarStyle</item>-->
+
+        <!--&lt;!&ndash; Set AppCompat’s color theming attrs &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/my_awesome_red</item>-->
+        <!--<item name="colorPrimaryDark">@color/my_awesome_darker_red</item>-->
+
+        <!--&lt;!&ndash; The rest of your attributes &ndash;&gt;-->
+    <!--</style>-->
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+	android:singleLine="false"
+	android:minLines="3"
+	android:inputType="textMultiLine"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" >
+</EditText>
+<!-- From: file:/home/ognev/Projects/ESLReader/mupdf/src/main/res/layout/textentry.xml --><!-- From: file:/home/ognev/Projects/ESLReader/mupdf/build/intermediates/bundles/debug/res/layout/textentry.xml -->

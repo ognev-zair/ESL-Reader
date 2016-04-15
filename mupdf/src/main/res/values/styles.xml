@@ -1,0 +1,16 @@
+<resources>
+    <!--<style name="AppBaseTheme" parent="@android:style/Theme.Light">-->
+   <!--</style>-->
+
+    <!--<style name="Theme.MyTheme" parent="@android:style/Theme.AppCompat.Light">-->
+        <!--&lt;!&ndash; Set AppCompat’s actionBarStyle &ndash;&gt;-->
+        <!--<item name="actionBarStyle">@style/MyActionBarStyle</item>-->
+
+        <!--&lt;!&ndash; Set AppCompat’s color theming attrs &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/my_awesome_red</item>-->
+        <!--<item name="colorPrimaryDark">@color/my_awesome_darker_red</item>-->
+
+        <!--&lt;!&ndash; The rest of your attributes &ndash;&gt;-->
+    <!--</style>-->
+    <color name="grey">#f7f7f7</color>
+</resources>

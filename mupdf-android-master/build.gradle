@@ -1,0 +1,61 @@
+repositories {
+    mavenCentral()
+    maven { url 'http://repo1.maven.org/maven2' }
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+def muPdfversionCode = 11
+def muPdfversionName = '1.2.10'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        minSdkVersion 10
+        targetSdkVersion 21
+        versionCode muPdfversionCode
+        versionName muPdfversionName
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+configurations {
+    deployerJars
+}
+
+dependencies {
+    deployerJars 'org.apache.maven.wagon:wagon-http:2.2'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.3'
+}
+
+// For Maven Repository submitting : Execute task: UploadArchives. Ex: > gradle uploadArchives
+// Define repoUsername, repoPassword and repoUrl on "gradle.properties" file in order to use this task.
+//uploadArchives {
+//    repositories.mavenDeployer {
+//        configuration = configurations.deployerJars
+//        repository(url: repoUrl) {
+//            authentication(userName: repoUsername, password: repoPassword)
+//        }
+//        pom.version = muPdfversionName
+//        pom.artifactId = "mupdf-android"
+//        pom.groupId = "com.viafirma"
+//    }
+//}

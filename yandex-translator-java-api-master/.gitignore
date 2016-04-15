@@ -1,0 +1,6 @@
+*.class
+bin/
+target/
+src/test/resources/META-INF/config.properties
+.settings
+ApiKeys.java
