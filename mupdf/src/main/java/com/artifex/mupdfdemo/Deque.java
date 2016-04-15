@@ -6,8 +6,6 @@
 
 package com.artifex.mupdfdemo;
 
-import java.util.*;
-
 // BEGIN android-note
 // removed link to collections framework docs
 // END android-note

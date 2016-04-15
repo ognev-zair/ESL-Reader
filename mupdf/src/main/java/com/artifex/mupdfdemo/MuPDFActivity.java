@@ -23,7 +23,6 @@ import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.*;
 import com.artifex.mupdfdemo.ReaderView.ViewMapper;
 
 import java.io.InputStream;

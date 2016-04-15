@@ -1,7 +1,6 @@
 package com.artifex.mupdfdemo;
 
 import android.content.Context;
-import android.graphics.*;
 import android.graphics.Bitmap.Config;
 import android.os.Handler;
 import android.view.View;

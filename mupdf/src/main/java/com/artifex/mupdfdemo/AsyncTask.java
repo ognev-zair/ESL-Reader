@@ -20,7 +20,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.Process;
 
-import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
