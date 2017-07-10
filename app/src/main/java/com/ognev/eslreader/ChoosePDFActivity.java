@@ -18,7 +18,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import com.artifex.mupdfdemo.ChoosePDFAdapter;
 import com.artifex.mupdfdemo.ChoosePDFItem;
-import com.parse.ParseAnalytics;
+//import com.parse.ParseAnalytics;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -49,7 +49,7 @@ public class ChoosePDFActivity extends Activity implements AdapterView.OnItemCli
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.choose_view);
-      ParseAnalytics.trackAppOpenedInBackground(getIntent());
+//      ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
       ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 11);
       ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 12);

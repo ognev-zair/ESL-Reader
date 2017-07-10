@@ -35,7 +35,7 @@ import com.artifex.utils.DigitalizedEventCallback;
 import com.ognev.eslreader.callback.Callback;
 import com.ognev.eslreader.dialog.SettingsDialogFragment;
 import com.ognev.eslreader.translator.Translator;
-import com.parse.ParseAnalytics;
+//import com.parse.ParseAnalytics;
 
 import java.io.InputStream;
 import java.util.concurrent.Executor;
@@ -358,7 +358,7 @@ public class ReadMeActivity extends AppCompatActivity implements FilePicker.File
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-      ParseAnalytics.trackAppOpenedInBackground(getIntent());
+//      ParseAnalytics.trackAppOpenedInBackground(getIntent());
       setContentView(R.layout.esl_reader_viewer);
 
       setToolbar();
