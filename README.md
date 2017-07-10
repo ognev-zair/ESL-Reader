@@ -1,8 +1,8 @@
 # ESL-Reader
 ESL-Reader is PDF reader and translator. 
 This project requires:
- - NDK to build MUPDF [MUPDF](https://mupdf.com/) library to view PDF books
- - Yandex developer account to translate text using yandex API
+ - NDK to build [MUPDF](https://mupdf.com/) library to view PDF books
+ - Yandex developers account to translate text using Yandex API
  
 
 
